@@ -1,0 +1,58 @@
+.reloj {
+  background-image: url("../assets/reloj.png");
+  width: 200px;
+  height: 200px;
+  border-radius: 370px;
+  background-color: #ededed;
+  background-size: 100%;
+  border: 1px solid #555;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+body {
+  background-color: #ededed;
+  font-family: Century Gothic;
+}
+
+.reloj img {
+  position: relative;
+  height: 200px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.reloj #minutos {
+  position: absolute;
+}
+
+.reloj #segundos {
+  position: absolute;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex .contenido {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px whitesmoke;
+          box-shadow: 0px 0px 20px whitesmoke;
+  margin: 50px;
+  padding: 32px;
+  -webkit-box-flex: 4;
+      -ms-flex: 4 4;
+          flex: 4 4;
+  border-radius: 10px;
+}
+
+.contenido p {
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
